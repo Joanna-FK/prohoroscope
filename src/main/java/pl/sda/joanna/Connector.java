@@ -5,7 +5,7 @@ import org.jsoup.Jsoup;
 import java.io.IOException;
 
 public class Connector {
-public static final String NOT_FOUND = "NOT FOUND";
+    public static final String NOT_FOUND = "NOT FOUND";
     private static final String URL_TEMPLATE = "https://horoskopy.gazeta.pl/horoskop/[placeholder]/dzienny";
 
 
