@@ -13,6 +13,10 @@ private static final String PATTERN = "<p class=\"lead\">.+";
         if (matcherHoroscope.find()) {
             foundText = matcherHoroscope.group();
         }
-        return foundText;
+        return clearText(foundText);
+    }
+
+    private static String clearText (String rawText ){
+        return rawText.replace("<p class=\"lead\">", "").replace("</p>", "").replace(". ", ".\n");
     }
 }
