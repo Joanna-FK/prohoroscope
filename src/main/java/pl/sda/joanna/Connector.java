@@ -3,8 +3,6 @@ package pl.sda.joanna;
 import org.jsoup.Jsoup;
 
 import java.io.IOException;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class Connector {
 public static final String NOT_FOUND = "NOT FOUND";
